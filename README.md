@@ -1,1 +1,1 @@
-# Simple-Calculator
+# Javascript Beginner Projects
