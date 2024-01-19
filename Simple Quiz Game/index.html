@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Quiz Game</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question" id="q1">
+            <p>1. What is the capital of France?</p>
+            <label><input type="radio" name="q1" value="Paris"> Paris</label>
+            <label><input type="radio" name="q1" value="London"> London</label>
+            <label><input type="radio" name="q1" value="Berlin"> Berlin</label>
+        </div>
+
+        <div class="question" id="q2">
+            <p>2. How many continents are there?</p>
+            <label><input type="radio" name="q2" value="5"> 5</label>
+            <label><input type="radio" name="q2" value="6"> 6</label>
+            <label><input type="radio" name="q2" value="7"> 7</label>
+        </div>
+
+        <div class="question" id="q3">
+            <p>3. What is the capital of Japan?</p>
+            <label><input type="radio" name="q3" value="Beijing"> Beijing</label>
+            <label><input type="radio" name="q3" value="Seoul"> Seoul</label>
+            <label><input type="radio" name="q3" value="Tokyo"> Tokyo</label>
+        </div>
+
+        <button onclick="checkAnswers()">Submit Answers</button>
+        
+        <div id="feedback" class="feedback"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
